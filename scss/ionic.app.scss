@@ -1,0 +1,140 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$stable:                          #DD225D !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+// $stable:                          #DD225D !default;
+// $positive:                        #387ef5 !default;
+$positive:                        #DD225D !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+.item-thumbnail-wide{
+    padding: 0;
+    height: 200px;
+}
+.item-thumbnail-wide img{
+    width:104%;
+    position: absolute;
+    z-index: -10;
+     
+}
+.item-thumbnail-wide a{
+    padding: 0 !important;
+    height: 200px;
+}
+
+.details-bottom {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.item{
+    border-width: 0px;
+}
+
+.book-header{
+  max-height: 200px;  
+}
+.auth-view .related-navigation{padding-top:0;padding-bottom:0}
+.auth-view .related-navigation .col{padding-top:0;padding-bottom:0}
+.auth-view .related-navigation .nav-right{float:right}
+.auth-view .related-navigation .nav-left{float:left}
+.auth-view .related-copy h1{color:#FFF;text-align:center}
+.auth-view .related-copy h2{color:#FFF;text-align:center}
+.auth-view .related-copy h3{color:#FFF;text-align:center}
+.auth-view .related-copy h4{color:#FFF;text-align:center}
+.auth-view .related-copy h5{color:#FFF;text-align:center}
+.auth-view .related-copy h6{color:#FFF;text-align:center}
+.auth-view .form-wrapper .log-in.button,.auth-view .form-wrapper .sign-up.button{background-color:#ff5a60;color:#FFF;border-color:#ff5056;font-weight:500}
+.auth-view .form-fields-outer{margin:0;padding:0 16px}
+.auth-view .form-fields-outer .item-input{padding-left:0;padding-right:0;border-left:none;border-right:none}
+.auth-view .message{text-align:center;color:#fff}
+.auth-view .message.error:before{content:'*';color:#ff5a60;text-shadow:1px 1px 0 rgba(243,0,9,.3);margin-right:5px;font-size:20px}
+.auth-view .show-hide-input{display:inherit;width:100%}
+.auth-view .toggle-view-anchor{position:absolute;top:6px;right:0;height:34px;line-height:34px}
+.auth-view .toggle-view-anchor *{color:#ccc!important;display:block;font-size:24px;width:45px;text-align:center;font-weight:500}
+.welcome-view .top-content{height:35%}
+.welcome-view .top-content .app-copy{text-align:center;padding-top:10vh}
+.welcome-view .top-content .app-logo{font-size:50px;font-family:cursive;font-weight:600;font-style:italic;color:#FFF}
+.welcome-view .bottom-content{height:55%}
+.welcome-view .bottom-content .facebook-sign-in,.welcome-view .bottom-content .google-sign-in,.welcome-view .bottom-content .twitter-sign-in{color:#FFF;font-size:18px;font-weight:500}
+.welcome-view .bottom-content .facebook-sign-in:before,.welcome-view .bottom-content .google-sign-in:before,.welcome-view .bottom-content .twitter-sign-in:before{width:30px;text-align:center;font-size:32px}
+.welcome-view .bottom-content .facebook-sign-in .btn-copy,.welcome-view .bottom-content .google-sign-in .btn-copy,.welcome-view .bottom-content .twitter-sign-in .btn-copy{margin-left:-30px}
+.welcome-view .bottom-content .google-sign-in{background-color:#dd4c39;border-color:rgba(220,68,48,.9)}
+.welcome-view .bottom-content .facebook-sign-in{background-color:#294886;border-color:rgba(39,68,126,.9)}
+.welcome-view .bottom-content .twitter-sign-in{background-color:#00a3dc;border-color:rgba(0,155,210,.9)}
+.welcome-view .bottom-content .split-actions{padding:0}
+.welcome-view .bottom-content .split-actions .col{padding-top:0;padding-bottom:0}
+.welcome-view .bottom-content .split-actions .col:first-child{padding-left:0}
+.welcome-view .bottom-content .split-actions .col:last-child{padding-right:0}
+.welcome-view .bottom-content .split-actions .button-outline{color:#FFF;border-color:#FFF;font-weight:500}
+.welcome-view .bottom-content .other-options-outer .ng-cloak,.welcome-view .bottom-content .other-options-outer .x-ng-cloak,.welcome-view .bottom-content .other-options-outer [data-ng-cloak],.welcome-view .bottom-content .other-options-outer [ng-cloak],.welcome-view .bottom-content .other-options-outer [ng\:cloak],.welcome-view .bottom-content .other-options-outer [x-ng-cloak]{display:none!important}
+.welcome-view .bottom-content .other-options-outer .hidden-actions.ng-hide,.welcome-view .bottom-content .other-options-outer .other-options.ng-hide{display:none!important}
+.welcome-view .bottom-content .other-options-outer .hidden-actions.ng-hide-remove.ng-hide-remove-active,.welcome-view .bottom-content .other-options-outer .other-options.ng-hide-add.ng-hide-add-active,.welcome-view .bottom-content .other-options-outer .other-options.ng-hide-remove.ng-hide-remove-active .hidden-actions.ng-hide-add.ng-hide-add-active{-webkit-transition:all 0s ease;transition:all 0s ease}
+.welcome-view .bottom-content .other-options-outer .other-options{color:#FFF}
+.welcome-view .bottom-content .legal-notice{color:#FFF;margin:10px 0;text-align:center}
+.welcome-view .bottom-content .legal-notice a{text-decoration:none;font-weight:600;color:#FFF}
+.home-view .welcome-message{text-align:center;margin-bottom:40px}
+.bar.bar-light {
+//   background-color: rgba(255,255,255,0) !important; /* or transparent, or background:none */
+  background-color:rgba(0, 0, 0, 0.2) !important;
+  border-bottom:0;
+}
+.bar.bar-light .title{
+    color: #fff;
+    text-align: left;
+}
+
+.auth-outer{background-color:transparent!important}
+.auth-outer ion-view{background-color:transparent;box-shadow:none!important}
+.auth-outer ion-header-bar{background-color:transparent!important;border:none!important;background-size:0!important}
+.auth-outer ion-header-bar *{color:#FFF}
+.ion-android-arrow-back:before{content:"\f2ca"}
+.ion-android-arrow-down:before{content:"\f35d"}
+
+.multi-bg-outer{background-image: url('../img/bg-img4.jpeg');
+position:relative;background-color:rgba(150,150,150,.7);height:100%;-webkit-transition:all ease-in-out .3s;transition:all ease-in-out .3s;background-size:cover;background-repeat:no-repeat;z-index:-2}
+.multi-bg-outer .bg-overlay{position:absolute;top:0;bottom:0;left:0;right:0;background-color:#303030;z-index:-1;opacity:.6}
+//RTL
+.rtl input, .rtl textarea, .rtl select{direction: rtl;}
+.rtl .list .item{text-align: right;}
+.rtl .item-input{padding: 6px 16px 5px 0;}
+.rtl .input-label{direction: rtl;right: 0;width: 100%;max-width: 100%;}
+.clear-rating{right: auto;left: 10px;}
+.rtl .bar.bar-stable.bar-footer{direction: rtl;}
+.rtl .popup-body{direction: rtl;}
+.rtl .loading-container .loading{direction: rtl;}
+.rtl .tabs-stable>.tabs{direction: rtl;}
+.rtl .custom-no-data-message{direction: rtl;}
+.rtl .item.range input{direction: ltr;}
+.rtl .item-select select{right: auto;left : 0;}
+.rtl .item-select:after{right : auto;left : 16px;}
+.rtl .confirmation-note{direction: rtl;}
+.rtl .custom-select-2 .select-header .select-label{float: right;margin-left: 0;margin-right: 13px;}
+.rtl .item-select select {padding: 14px 16px 16px 48px;}

@@ -1,0 +1,15 @@
+/* Empty. Add your own CSS if you like */
+.item-thumbnail-wide{
+    padding: 0;
+    height: 200px;
+}
+.item-thumbnail-wide img{
+    width:100%;
+    position: absolute;
+    z-index: -10;
+     
+}
+.item-thumbnail-wide a{
+    padding: 0 !important;
+    height: 200px;
+}

@@ -1,0 +1,12 @@
+<ion-view title="{{salon.title}}">
+    <ion-content>
+        <img ng-src="{{salon.src}}" class="book-header" />
+        <a-carousel
+            item-directive="carousel-text-item"
+             carousel-options="::carouselOptions"
+            array-provider="::carouselData"
+            on-select="onSelectCarousel(item)"
+            >
+        </a-carousel>
+    </ion-content>
+</ion-view>
